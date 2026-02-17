@@ -1,0 +1,3 @@
+# Render build script for backend
+buildCommand: ./mvnw clean package -DskipTests
+startCommand: java -jar target/expense-tracker-1.0.0.jar
